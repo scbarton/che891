@@ -8,7 +8,7 @@ display(Javascript("$('div.input').hide();"))
 def hidecode():
     
     toggle=widgets.ToggleButtons(
-    options=['Show Code', 'Hide Code'],
+    options=['Hide Code', 'Show Code'],
     disabled=False,
     )
 
